@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #7CBEFB;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav-link {
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 600;
+    align-self: stretch;
+    position: relative;
+
+}
+
+.sub-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 520px;
+}
+
+.button {
+    display: flex;
+    width: 400px;
+    height: 20px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFC107;
+    border: none;
+}
+
+.photo{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.photo-text p{
+    width: 520px;
+    margin: 50px 0;
+}
+
+.photo1 {
+    width: 445px;
+    height: 564px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background:  lightgray 50% / cover no-repeat;
+    position: relative;
+    object-fit: cover;
+}
+
+.main-text2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    width: 460px;
+
+}
+
+.sub-text2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 520px;
+}
+
+.but1 {
+    display: flex;
+    padding: 20px 20px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid #FFC107;
+    background: #FFC107;
+}
+
+.experiences {
+    padding: 50px 0;
+}
+
+.text {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.experiences-images {
+    gap: 20px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.image2 {
+    width: 100%;
+    height: 317px;
+    border-radius: 20px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.image3 {
+    width: 100%;
+    height: 317px;
+    border-radius: 20px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.image4 {
+    width: 100%;
+    height: 317px;
+    border-radius: 20px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.hero-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.win {
+    display: flex;
+    padding: 20px 0 40px 0;
+}
+
+.plane-image{
+    width: 60%;
+    background-image: url(./airplane.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plane {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-0.135deg);
+}
+
+.ima5 {
+    width: 716.619px;
+    height: 375.486px;
+    transform: rotate(-20.854deg);
+    flex-shrink: 0;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.navigation {
+    display: flex;
+    width: 118px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    flex-shrink: 0;
+}
+
+.support1 {
+    display: flex;
+    width: 124px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.nav,
+.support,
+.newsletter {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    align-self: stretch;
+}
+
+.newsletter{
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    padding: 58px 57px;
+    align-items: center;
+    gap: 169px;
+    flex-shrink: 0;
+    background: #FFC107;
+}
+
+.newsletter-input{
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background: #E2E8F0;
+    padding: 5px 5px 5px 20px;
+}
+
+.newsletter-input input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.newsletter-input button{
+    border: none;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    background: #7CBEFB;
+}
